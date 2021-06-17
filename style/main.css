@@ -1,0 +1,135 @@
+:root{
+    --red:#820b0b;
+    --black:#000000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* base */
+body{
+background:var(--black);
+font-family: 'Segoe Ui', Times, serif;
+color:whitesmoke;
+}
+
+
+header .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .logo{
+    margin-left: 7px;
+    color: var(--red);
+    font-family: 'Segoe Ui', Times;
+    font-size:150%;
+}
+
+
+header nav a{
+    text-decoration:none;
+    color: var(--red);
+    margin-right: 7px;
+    
+}
+
+header nav a:hover{
+    color: rgb(255, 255, 255);
+}
+/*
+.wrapper {
+    margin-left: 10px;/*
+}
+/* Filme/Série/Documentário principal */
+.movie1{
+    height: 500px;
+    background-size:cover;
+    background:  linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/RenewedNetflix/img/capa01.jpg');
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start
+}
+/* Título do movie1 */
+.movie1 .titulo{
+    margin-top:5px;
+    margin-bottom: 0%;
+    font-size:135%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ /* Descrição do movie1 */
+.movie1 .desc{
+    margin-top: 0%;
+    margin-bottom: 10%;
+ 
+}
+
+/*Sinopse abreviada do movie1 */
+
+
+.movie1 #desc2{
+    margin-top: 10%;
+    justify-content:flex-start;
+    width:300px;
+
+}
+
+.movie .wrapper{
+    width: 60%;
+}
+
+.botoes{
+    margin-top: 10%;
+   
+}
+
+.botao{
+    text-decoration:none;
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .7s ease all;
+}
+
+.botao:hover{
+    background-color:var(--black);
+    color: var(--red);
+    text-decoration:none;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.box-video{
+    height: 40%;
+    width: 40%;
+    display: block;
+    cursor: pointer;
+}
+
+.videos{
+    margin-top:9px;
+}
+
+
+   
+
+
+
